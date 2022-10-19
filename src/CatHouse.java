@@ -24,7 +24,10 @@ public class CatHouse {
             if (cat1.getName().compareTo(cat2.getName()) > cat2.getName().compareTo(cat1.getName())){
                 cat1.introduce();
                 cat2.introduce();
-            } else if
+            } else {
+                cat2.introduce();
+                cat1.introduce();
+            }
     }
 
     // IMPLEMENT this method!
