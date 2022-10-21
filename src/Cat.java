@@ -37,7 +37,7 @@ public int getAge(){
 
     public void introduce()
     {
-        System.out.println("Hello. My name is " + name + " and I am " + age + " years old. Now, mind your own business.");
+        System.out.println("Hello. My name is " + name + " and I am " + age + " years old. " + speak());
     }
 
 }
